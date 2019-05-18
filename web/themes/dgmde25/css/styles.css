@@ -5,6 +5,57 @@ body {
 	padding: 0;
 }
 
+h2, h3, h4, h5, h6 {
+	font-family: 'Barrio', cursive;
+}
+header {
+	background-color: #073350;
+	color: white;
+}
+
+header img {
+	padding: 0.5em;
+	margin: 0;
+}
+
+a {
+	color: #993333;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav {
+	background-color: #ccc;
+	border-bottom: 2px solid black;
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+nav a {
+	color: #933;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+}
+
+.maincontent {
+	clear: both;
+}
+
 main {
   display: flex;
 }
@@ -19,4 +70,13 @@ main {
 	width: 23%;
 	margin: 0 1%;
 	float: left;
+}
+
+footer {
+	background-color: #073350;
+	color: white;
+	padding: 1em;
+	margin-top: 3em;
+	border-top: 2px solid black;
+	clear: both;
 }
