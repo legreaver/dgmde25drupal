@@ -1,3 +1,19 @@
 body {
-  background-color: cornsilk;
+  background-color: white;
+}
+
+main {
+  display: flex;
+}
+
+.content-wrapper {
+  width: 73%;
+  float: left;
+ 	margin: 0 1%;
+}
+
+.side-navigation {
+	width: 23%;
+	margin: 0 1%;
+	float: left;
 }
